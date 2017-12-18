@@ -14,7 +14,7 @@ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
 
 
 # add docker repo
-sudo sh -c echo '"deb [arch=amd64] https://download.docker.com/linux/debian stretch stable" >> /etc/apt/sources.list '
+sudo sh -c "echo 'deb [arch=amd64] https://download.docker.com/linux/debian stretch stable' >> /etc/apt/sources.list"
 
 sudo apt-get update
 
